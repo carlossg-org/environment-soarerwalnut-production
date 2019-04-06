@@ -1,11 +1,11 @@
 Step: build-step-credential-initializer:
 
-{"level":"warn","ts":1554574337.9466493,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1554574337.9490979,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+{"level":"warn","ts":1554575013.9875958,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1554575013.9893298,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
 Step: build-step-git-source-0:
 
-{"level":"warn","ts":1554574339.9376693,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1554574341.5605085,"logger":"fallback-logger","caller":"git-init/main.go:92","msg":"Successfully cloned \"https://github.com/carlossg-org/environment-soarerwalnut-production.git\" @ \"825348a5e49aec6356d0548ebc84cb07ad2d831e\" in path \"/workspace\""}
+{"level":"warn","ts":1554575015.6201756,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1554575017.2972317,"logger":"fallback-logger","caller":"git-init/main.go:92","msg":"Successfully cloned \"https://github.com/carlossg-org/environment-soarerwalnut-production.git\" @ \"825348a5e49aec6356d0548ebc84cb07ad2d831e\" in path \"/workspace\""}
 Step: build-step-build:
 
 Adding missing Helm repo: jenkins-x http://chartmuseum.jenkins-x.io
