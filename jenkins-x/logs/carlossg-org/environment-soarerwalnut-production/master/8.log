@@ -1,11 +1,11 @@
 Step: build-step-credential-initializer:
 
-{"level":"warn","ts":1554574393.5145664,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1554574393.5160263,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+{"level":"warn","ts":1554575033.943405,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1554575033.9445527,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
 Step: build-step-git-source-0:
 
-{"level":"warn","ts":1554574394.3856578,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1554574396.0260324,"logger":"fallback-logger","caller":"git-init/main.go:92","msg":"Successfully cloned \"https://github.com/carlossg-org/environment-soarerwalnut-production.git\" @ \"1a35891484072ca2b3358c1e707e1ea279987a36\" in path \"/workspace\""}
+{"level":"warn","ts":1554575035.342338,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1554575036.4258914,"logger":"fallback-logger","caller":"git-init/main.go:92","msg":"Successfully cloned \"https://github.com/carlossg-org/environment-soarerwalnut-production.git\" @ \"1a35891484072ca2b3358c1e707e1ea279987a36\" in path \"/workspace\""}
 Step: build-step-apply:
 
 Modified file /workspace/env/Chart.yaml to set the chart to version 8
